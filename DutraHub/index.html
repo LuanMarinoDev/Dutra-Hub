@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dutra Hub - Soluções Digitais</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+</head>
+<body>
+  <!-- Scroll Indicator -->
+  <div class="scroll-indicator"></div>
+
+  <!-- Partículas Flutuantes -->
+  <div class="particles" id="particles"></div>
+
+  <!-- Loader -->
+  <div class="loader" id="loader">
+    <div class="loader-content">
+      <div class="loader-circle"></div>
+      <div class="loader-text">Carregando Dutra Hub...</div>
+    </div>
+  </div>
+
+  <header class="header" id="header">
+    <nav class="nav">
+      <div class="logo">Dutra Hub</div>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#home" class="nav-link active">Início</a></li>
+        <li><a href="#about" class="nav-link">Sobre</a></li>
+        <li><a href="#services" class="nav-link">Serviços</a></li>
+        <li><a href="#contact" class="nav-link">Contato</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="glow-text typewriter">Dutra Hub</h1>
+          <p class="subtitle">Gestão de Mídias Sociais • Design Gráfico • Anúncios • Produção de Podcasts</p>
+          <p class="description">
+            Transformando ideias em projetos criativos e soluções digitais inovadoras para elevar sua marca no mercado digital.
+          </p>
+          <div class="hero-buttons">
+            <a href="#contact" class="btn btn-primary">
+              <i class="fas fa-envelope"></i> Entre em Contato
+            </a>
+            <a href="#services" class="btn btn-secondary">
+              <i class="fas fa-briefcase"></i> Nossos Serviços
+            </a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="profile-circle">
+            <i class="fas fa-rocket"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2>Sobre a Dutra Hub</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              A <strong>Dutra Hub</strong> é uma agência digital especializada em soluções criativas 
+              e estratégicas para empresas e profissionais que desejam se destacar no mercado.
+            </p>
+            <p>
+              Nossa expertise abrange desde a produção completa de podcasts até o desenvolvimento 
+              de estratégias de marketing digital, sempre focando na qualidade e no impacto dos resultados.
+            </p>
+            <p>
+              Com uma abordagem personalizada e inovadora, transformamos suas ideias em realidade 
+              digital, conectando sua marca ao público de forma autêntica e eficaz.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Serviços -->
+    <section id="services" class="services">
+      <div class="container">
+        <h2>Nossos Serviços</h2>
+        <p class="services-subtitle">Soluções completas para sua presença digital</p>
+        
+        <div class="services-grid">
+          <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-icon">
+              <i class="fas fa-microphone"></i>
+            </div>
+            <h3>Produção de Podcasts</h3>
+            <div class="service-content">
+              <ul>
+                <li>Parceria completa do início ao fim</li>
+                <li>Gravação profissional em estúdio</li>
+                <li>Tratamento, mixagem e edição de áudio</li>
+                <li>Produção executiva completa</li>
+                <li>Distribuição em todas as plataformas</li>
+                <li>Criação de identidade visual</li>
+                <li>Estratégia de lançamento</li>
+              </ul>
+            </div>
+            <div class="service-cta">
+              <a href="#contact" class="btn-service">Começar Projeto</a>
+            </div>
+          </div>
+
+          <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-icon">
+              <i class="fas fa-newspaper"></i>
+            </div>
+            <h3>Anúncios Jornal ZN</h3>
+            <div class="service-content">
+              <ul>
+                <li>Alcance centenas de leitores locais</li>
+                <li>Aumento comprovado de vendas</li>
+                <li>Torne-se o assunto da semana</li>
+                <li>Solução econômica e eficaz</li>
+                <li>Segmentação de público local</li>
+                <li>Design de anúncio profissional</li>
+                <li>Análise de resultados</li>
+              </ul>
+            </div>
+            <div class="service-cta">
+              <a href="#contact" class="btn-service">Anunciar Agora</a>
+            </div>
+          </div>
+
+          <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-icon">
+              <i class="fas fa-paint-brush"></i>
+            </div>
+            <h3>Design Gráfico</h3>
+            <div class="service-content">
+              <ul>
+                <li>Identidade visual completa</li>
+                <li>Criação de logos profissionais</li>
+                <li>Material gráfico para redes sociais</li>
+                <li>Flyers e materiais promocionais</li>
+                <li>Branding estratégico</li>
+                <li>Papelaria corporativa</li>
+                <li>Design responsivo</li>
+              </ul>
+            </div>
+            <div class="service-cta">
+              <a href="#contact" class="btn-service">Criar Design</a>
+            </div>
+          </div>
+
+          <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-icon">
+              <i class="fas fa-share-alt"></i>
+            </div>
+            <h3>Gestão de Mídias</h3>
+            <div class="service-content">
+              <ul>
+                <li>Estratégia de conteúdo personalizada</li>
+                <li>Agendamento inteligente de posts</li>
+                <li>Atendimento profissional</li>
+                <li>Análise de engajamento</li>
+                <li>Crescimento orgânico</li>
+                <li>Gestão de múltiplas plataformas</li>
+                <li>Relatórios de performance</li>
+              </ul>
+            </div>
+            <div class="service-cta">
+              <a href="#contact" class="btn-service">Começar Gestão</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Entre em Contato</h2>
+        <p>Estamos prontos para levar sua marca ao próximo nível!</p>
+        <div class="contact-buttons">
+          <a href="mailto:dutrahub@gmail.com" class="btn btn-primary">
+            <i class="fas fa-envelope"></i> dutrahub@gmail.com
+          </a>
+          <a href="https://www.instagram.com/dutrahub" target="_blank" class="btn btn-secondary">
+            <i class="fab fa-instagram"></i> Instagram
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Dutra Hub. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
